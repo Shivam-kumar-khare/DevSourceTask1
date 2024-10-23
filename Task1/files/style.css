@@ -483,6 +483,8 @@ div {
   background-color: black;
 }
 
+
+
 #Aryan_Thakur_1080_button {
   background-color: #edab27; 
   border: none;
@@ -746,6 +748,7 @@ div {
   }
 }
 
+
 #Vibhav_Sinha_1080{
   background-color: black;
 }
@@ -764,4 +767,38 @@ div {
 #Vibhav_1080:hover{
 background-color: red;
 color: black;
+}
+
+#Arkin_1080 {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+#Arkin_1080_button {
+  background-color: #808080;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 12px;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#Arkin_1080_button:hover {
+  background-color: #696969;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+#Arkin_1080_button:active {
+  background-color: #505050;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1);
 }
