@@ -113,8 +113,6 @@
 }
 
 
-
-
 #logo {
   height: 90px;
   width: 100px;
@@ -728,6 +726,7 @@ div {
   animation: arnav 4s ease-in-out infinite;
 }
 
+
 @keyframes arnav {
   0% {
     box-shadow: 5px 5px 3px hsla(0, 100%, 50%, 0.7), -5px -5px 3px hsla(240, 100%, 50%, 0.7);
@@ -750,6 +749,25 @@ div {
 }
 
 
+#Vibhav_Sinha_1080{
+  background-color: black;
+}
+#Vibhav_1080{
+  color: red;
+  background-color: black;
+  position: absolute;
+  font-weight: bold;
+  font-size: large;
+  font-family: Condensed;
+  border: 0 solid red;
+  cursor: pointer;
+  transition: all 0.75s;
+  padding: 15px;
+}
+#Vibhav_1080:hover{
+background-color: red;
+color: black;
+}
 
 #Arkin_1080 {
   background-color: black;
