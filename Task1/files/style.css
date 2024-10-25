@@ -807,14 +807,16 @@ color: black;
 #harsh_div{
   height: 120px;
   width: 180px;
-  background-color: rgb(255, 145, 0);
+  background-color: #fff;
   display: flex;
+  box-shadow: 2px 2px 2px #000000;
+
 }
 
 #harsh_btn{
   height: 60px;
   width: 100px;
-  background-color: rgb(191, 55, 196);
+  background-color: #bf37c4;
   margin: 5px;
   border: none;
   border-radius: 20px;
@@ -823,25 +825,16 @@ color: black;
   /* transition: 5s; */
 }
 
-@keyframes harsh_anime {
-  to 0%{
-
-    
-
-  }
-  from 100%{
-   
-
-  }
-  
-}
 
 #harsh_btn:hover{
-    background: radial-gradient(#f86666,#66bef8);
+    background: #ff0000;
     height: 70px;
     width: 70px;
-    transition: 1s;
+    transition: 0.6s;
     border-radius: 50%;
     box-shadow: 4px 4px 4px #000;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
 }
 
