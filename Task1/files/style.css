@@ -121,7 +121,48 @@
   z-index: 10;
   position: absolute;
 }
+#deepam_1080_button {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s, transform 0.1s;
+}
 
+#deepam_1080_button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.5s;
+  z-index: 0;
+}
+
+#deepam_1080_button:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+#deepam_1080_button:hover {
+  background: linear-gradient(135deg, #0056b3, #003d80);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#deepam_1080_button:active {
+  background: linear-gradient(135deg, #003d80, #002a5c);
+  transform: translateY(2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
 
 @keyframes scaleUpDown {
 
