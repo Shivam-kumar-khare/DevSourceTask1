@@ -728,8 +728,52 @@ div {
 
 #Satya_1080_button:active {
   background: linear-gradient(45deg, #276e06, #c2f785);
-  transform: translateY(0);
-}
+  transform: translateY(0); 
+  
+  } 
+  #Arshpreet_1080{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border: 5px solid rgb(255, 2, 2);
+    background-color: #000000;
+    border-radius: 0px;
+    height: 125px;
+    width: 250px;
+  }
+  
+  #Arshpreet_1080_button{
+    outline: none;
+    background-color: rgb(255, 2, 2);
+    border: none;
+    height: 50%;
+    width: 80%;
+    border-radius: 6px;
+    transition: all;
+    transition-duration: 0.2s;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 24px;
+    
+  }
+  
+  #Arshpreet_1080_button:hover {
+    transform: translateX(-5px) translateY(-5px) ;
+    box-shadow: 5px 5px 10px rgb(161, 159, 159);
+    /* color: rgb(0, 0, 0); */
+    transition: all;
+    transition-duration: 0.2s;
+    background-color: rgb(255, 2, 2);
+  }
+  #Arshpreet_1080_button:active {
+    box-shadow: 7px 7px 10px rgb(113, 76, 246);     
+  } 
+  #Arshpreet_1080 p{
+    color: red;
+    font-size: 20px;
+    font-weight:600;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    
+  }
 
 #Arnav_1080 {
   /* background: linear-gradient(90deg, #00c6ff, #0072ff); */
