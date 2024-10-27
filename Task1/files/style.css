@@ -922,6 +922,17 @@ color: black;
     font-weight: 500;
     color: #fff;
 }
+#Shivam{
+  background: linear-gradient(45deg, red, blue);
+  color: white;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
 #sonu_yadav_1080{
   height: 130px;
   width: 250px;
